@@ -93,4 +93,43 @@
               <option value="2028">2028</option>
             </select>
           </div>
+
+          <div class="field">
+            <label for="greg-month">Month</label>
+            <select id="greg-month" name="greg-month">
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August" selected>August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+          </div>
+           <div class="field">
+            <label for="greg-day">Day</label>
+            <select id="greg-day" name="greg-day">
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7" selected>7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <!-- Remaining days can be generated dynamically later with JS -->
+            </select>
+          </div>
+             <button type="button" class="convert-btn" id="convert-to-ethiopian">Convert</button>
+        </div>
+
+      </div>
+
+      <!-- Result text — JS will update this element's content -->
+      <p class="result" id="conversion-result">1 Nahase 2018 is August 7, 2026</p>
+    </section>
+  </main>
 </body>
+</html>

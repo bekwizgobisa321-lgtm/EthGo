@@ -1,0 +1,14 @@
+
+:root {
+  --color-gold: #d9b76c;
+  --color-gold-soft: #f0dca6;
+  --color-olive: #5b6b3f;
+  --color-btn-green: #1f4d33;
+  --color-btn-green-hover: #163b27;
+  --color-text-dark: #1c1c1c;
+  --color-card-bg: rgba(255, 255, 255, 0.55);
+  --color-field-bg: rgba(255, 255, 255, 0.85);
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+}
