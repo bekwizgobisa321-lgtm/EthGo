@@ -12,3 +12,131 @@
   --font-heading: "Playfair Display", serif;
   --font-body: "Poppins", sans-serif;
 }
+/* =========================================================
+   2. RESET / BASE
+========================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-dark);
+  line-height: 1.4;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* =========================================================
+   3. HEADER / NAVBAR
+   Sits directly on top of the hero image (transparent bg),
+   text is light/gold so it stays readable over the photo.
+========================================================= */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 1.25rem 2.5rem;
+
+  /* subtle dark gradient so text stays legible on bright parts of the photo */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+
+.logo-text {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-gold);
+}
+.main-nav a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-gold-soft);
+  transition: color 0.2s ease;
+}
+.main-nav a:hover,
+.main-nav a:focus-visible {
+  color: #ffffff;
+}
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+}
+.theme-toggle .icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* =========================================================
+   4. HERO SECTION (background photo + centered card)
+========================================================= */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+   background-image: url("assets/images/hero-back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6rem 1.5rem 3rem;
+}
+/* =========================================================
+5. CONVERTER CARD
+   Double border effect (gold + olive) is done with box-shadow
+   layers instead of extra HTML wrapper divs.
+========================================================= */
+
+.converter-card {
+  width: 100%;
+  max-width: 850px;
+
+  background: var(--color-card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+  border: 2px solid var(--color-gold);
+  box-shadow:
+    0 0 0 6px var(--color-olive),
+    0 0 0 9px var(--color-gold-soft),
+    0 20px 45px rgba(0, 0, 0, 0.35);
+
+  padding: 2.5rem 2.5rem 2rem;
+  text-align: center;
+}
