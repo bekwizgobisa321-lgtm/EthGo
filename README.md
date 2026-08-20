@@ -1,0 +1,19 @@
+# EthioCal — Ethiopian ↔ Gregorian Calendar Converter
+
+EthioCal is a lightweight web app that converts dates between the Ethiopian calendar and the Gregorian calendar, in both directions.
+
+## Features
+
+- 🔄 Convert Ethiopian dates to Gregorian
+- 🔄 Convert Gregorian dates to Ethiopian
+- 📱 Fully responsive design (desktop, tablet, mobile)
+- 🎨 Clean, custom UI built from an original design
+- ⚡ No frameworks — built with vanilla HTML, CSS, and JavaScript
+
+## Tech Stack
+
+- **HTML5** — semantic markup
+- **CSS3** — custom responsive styling
+- **JavaScript (Vanilla)** — conversion logic
+
+## Project Structure
