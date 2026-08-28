@@ -30,7 +30,7 @@ Ethiopian-Calendar-Converter/
 
 1. Clone the repository
    git clone https://github.com/your-username/Ethiopian-Calendar-Converter.git
-2. Open index.html in your browser — no build step or dependencies required.
+
 
 ## Status
 
