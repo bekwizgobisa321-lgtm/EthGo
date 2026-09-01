@@ -32,8 +32,4 @@ Ethiopian-Calendar-Converter/
    git clone https://github.com/your-username/Ethiopian-Calendar-Converter.git
 
 
-## Status
 
-- [x] UI design and layout
-- [x] Responsive HTML/CSS frontend
-- [ ] JavaScript conversion logic (in progress)
