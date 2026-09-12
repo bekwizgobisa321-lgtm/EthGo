@@ -1,7 +1,7 @@
 ===== README.md =====
-# EthioCal — Ethiopian ↔ Gregorian Calendar Converter
+# EthGo — Ethiopian ↔ Gregorian Calendar Converter
 
-EthioCal is a lightweight web app that converts dates between the Ethiopian calendar and the Gregorian calendar, in both directions.
+EthGo is a lightweight web app that converts dates between the Ethiopian calendar and the Gregorian calendar, in both directions.
 
 ## Features
 
