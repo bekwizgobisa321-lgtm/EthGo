@@ -1,9 +1,8 @@
 ===== README.md =====
 # EthGo — Ethiopian ↔ Gregorian Calendar Converter
-<<<<<<< HEAD
-=======
-<img width="1920" height="875" alt="screencapture-eth-go-vercel-app-2026-09-10-21_08_08" src="https://github.com/user-attachments/assets/c024298d-854d-4609-93ad-915eff5687c2" />
->>>>>>> 647e6d7bd991778a1370451293e98e5f545eb760
+
+<img width="1907" height="877" alt="image" src="https://github.com/user-attachments/assets/28706d3f-66e6-4ad3-848f-46357e63d1d2" />
+
 
 EthGo is a lightweight web app that converts dates between the Ethiopian calendar and the Gregorian calendar, in both directions.
 
@@ -34,6 +33,7 @@ Ethiopian-Calendar-Converter/
 
 1. Clone the repository
    git clone https://github.com/your-username/Ethiopian-Calendar-Converter.git
+   
 
 
 
